@@ -1,0 +1,23 @@
+{
+  "name": "bodrx",
+  "version": "0.0.1",
+  "description": "Pusing? Minum Bodrx!",
+  "main": "lib/bodrx.js",
+  "scripts": {
+    "test": "jest __tests__ --forceExit",
+    "test-main": "jest __tests__/bodrx --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^22.0.3",
+    "supertest": "^3.0.0"
+  },
+  "jest": {
+    "testRegex": "/__tests__/.*\\.spec\\.js$"
+  }
+}
